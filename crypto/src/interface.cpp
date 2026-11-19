@@ -32,8 +32,7 @@ void print_help()
               << "  -m, --mode <type>       Режим работы. Допустимые значения: {Encrypt, Decrypt}\n\n"
               << "  -h, --help              Показать справку.\n"
               << "Пример использования:\n"
-              << "  ./cipher -f input.txt -p my_secret_pass -m Encrypt -r output.txt\n"
-              << "  ./cipher --file data.dat --mode Decrypt --password 123456 --result decoded.dat\n"
+              << "  ./cipher -f input.txt -p password --mode Encrypt -r output.txt\n"
               << std::endl;
 }
 
