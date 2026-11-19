@@ -4,7 +4,7 @@
 
 extern const struct option long_options[];
 
-void help();
+void print_help();
 
 bool parse(
     int argc, char* argv[],

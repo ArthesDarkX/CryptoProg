@@ -33,5 +33,10 @@ int main(int argc, char** argv)
         std::cerr << "Ошибка: " << ex.what() << '\n';
         return 1;
     }
+    catch (const std::exception& ex)
+    {
+        std::cerr << "Ошибка: " << ex.what() << '\n';
+        print_help();
+    }
     return 0;
 }
